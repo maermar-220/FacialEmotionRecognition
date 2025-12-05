@@ -17,6 +17,6 @@ This notebook demonstrates a simple end-to-end pipeline for facial expression re
 
 3. **Facial Expression Recognition (PyTorch)**  
    - Loads the pretrained expression recognition model from  
-     `/content/drive/MyDrive/CVproject/stage1/runs/raf_stage1plus_best2.pth`  
+     `/content/raf_stage1plus_best2.pth`  
    - Applies the model to each aligned face crop  
    - Outputs the predicted emotion label and confidence for each face, and visualizes them in the notebook
