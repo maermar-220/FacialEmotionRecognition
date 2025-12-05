@@ -15,7 +15,7 @@ This notebook demonstrates a simple end-to-end pipeline for facial expression re
      - Each aligned face crop into a separate folder  
    - Stores detection results in a global variable for the next step
 
-3. **Facial Expression Recognition (PyTorch)**  
+3. **Facial Expression Recognition**  
    - Loads the pretrained expression recognition model from  
      `/content/raf_stage1plus_best2.pth`  
    - Applies the model to each aligned face crop  
